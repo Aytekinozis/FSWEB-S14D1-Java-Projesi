@@ -9,12 +9,12 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 ### Hedeflerimiz:
 
 ### Silindir
-* Circle isimli bir sınıf yazınız. ```radius``` isimli bir tane sınıf değişkenine sahip olmalı. radius değişkeninin tipi ne olmalı ?
+* com.workintech.cylinder.Circle isimli bir sınıf yazınız. ```radius``` isimli bir tane sınıf değişkenine sahip olmalı. radius değişkeninin tipi ne olmalı ?
 * Sınıfın bir tane ```constructor``` metodu olmalı ve içerisinde radius değişkeninin değerini değiştirebilmeli. Radius bir şekilde 0'dan küçük belirtilirse radius 0'a eşitlenmeli. 
-* Circle sınıfının ```getRadius``` isimli bir metodu olmalı ve radius değerinin dönmeli.
-* Circle sınıfının ```getArea``` isimli bir metodu olmalı ve radius * radius * Math.PI değerini dönmeli.
+* com.workintech.cylinder.Circle sınıfının ```getRadius``` isimli bir metodu olmalı ve radius değerinin dönmeli.
+* com.workintech.cylinder.Circle sınıfının ```getArea``` isimli bir metodu olmalı ve radius * radius * Math.PI değerini dönmeli.
 
-* Cylinder isminde bir sınıf yazınız. Circle sınıfı ile arasında kalıtım ilişkisi kurmalısınız.
+* Cylinder isminde bir sınıf yazınız. com.workintech.cylinder.Circle sınıfı ile arasında kalıtım ilişkisi kurmalısınız.
 * Cylinder sınıfının bir tane sınıf değişkeni olmalı ve adı ```height``` olmalı. height değişkeninin tipi ne olmalı ?
 * Cylinder sınıfının bir tane constructor methodu olmalı ve 2 parametre almalı. height parametresi 0'dan küçükse, height 0'a eşitlenmeli.
 * Cylinder sınıfının ```getHeight``` isimli bir metodu olmalı ve height değerini return etmeli.
@@ -56,7 +56,7 @@ Uygulamada ```main``` metodu içerisinde INPUT kısmındaki kod blokları çağ�
 ### Silindir için
 INPUT
 
-Circle circle = new Circle(3.75);
+com.workintech.cylinder.Circle circle = new com.workintech.cylinder.Circle(3.75);
 
 System.out.println("circle.radius= " + circle.getRadius());
 
